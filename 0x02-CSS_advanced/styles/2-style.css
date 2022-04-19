@@ -1,0 +1,13 @@
+/* the behavior of the scroll to be as fluid as possible. */
+html{
+    scroll-behavior: smooth;
+}
+body, a{
+    background-color: #161616;
+}
+.visually-hidden{
+    display:none;
+}
+.card-category, .section-tagline{
+    color: #D73953
+}

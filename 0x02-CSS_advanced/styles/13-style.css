@@ -96,5 +96,5 @@ a:visited {
 }
 
 a:active {
-    color: var(---color-light-grey);
+    color: var(--color-light-grey);
 }

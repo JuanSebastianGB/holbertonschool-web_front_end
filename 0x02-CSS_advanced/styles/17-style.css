@@ -181,6 +181,12 @@ template {
 
 /*# sourceMappingURL=normalize.min.css.map */
 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 /* Custom Css */
 
 :root {
@@ -221,18 +227,10 @@ template {
     --footer-padding: 5rem 0 1rem;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
-
-
 
 body {
     color: var(--text-color);

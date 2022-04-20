@@ -1,4 +1,4 @@
-/* Centering the section titles */
+/* more styles to the section tagline */
 
 
 :root {
@@ -25,6 +25,8 @@
     --line-height-big: 1.8;
 
     --section-header-align: center;
+
+    --section-tagline-transform: uppercase;
 }
 
 html {
@@ -66,4 +68,10 @@ h6 {
 a {
     color: var(--text-color);
     text-decoration: none;
+}
+
+.section-tagline {
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
 }

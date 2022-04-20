@@ -11,7 +11,7 @@ html{
     --text-color: var(--color-black);
 }
 body, a{
-    background-color: var(--text-color);
+    color: var(--text-color);
 }
 .visually-hidden{
     display:none;

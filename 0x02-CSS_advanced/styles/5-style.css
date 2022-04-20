@@ -22,7 +22,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: var(--text-color);
+    color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
 }
@@ -37,5 +37,5 @@ h1,h2,h3,h4,h5,h6{
     font-family: var(--font-family-title);
 }
 a{
-    background-color: var(--text-color);
+    color: var(--text-color);
 }

@@ -203,13 +203,7 @@ body {
     line-height: var(--line-height-base);
 }
 
-.social-link {
-    display: block;
-}
 
-.social-link>svg {
-    fill: var(--text-color);
-}
 
 a:link {
     color: var(--text-color);
@@ -360,6 +354,13 @@ h6 {
     color: var(--text-color);
 }
 
+.social-link {
+    display: block;
+}
+
+.social-link>svg {
+    fill: var(--text-color);
+}
 
 [data-section-theme='dark'] {
     --text-color: var(--color-white);

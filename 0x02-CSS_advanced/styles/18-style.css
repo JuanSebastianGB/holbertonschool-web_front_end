@@ -326,6 +326,8 @@ a:active {
 
 .footer {
     padding: var(--footer-padding);
+    text-align: center;
+    ;
 }
 
 .navbar-menu {

@@ -296,15 +296,6 @@ ul.row {
     text-align: var(--section-footer-align);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
 
 .navbar-menu {
     float: right;
@@ -361,6 +352,17 @@ h6 {
 .social-link>svg {
     fill: var(--text-color);
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
 
 [data-section-theme='dark'] {
     --text-color: var(--color-white);

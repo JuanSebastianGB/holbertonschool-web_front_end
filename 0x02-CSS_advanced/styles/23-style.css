@@ -208,7 +208,7 @@ body {
 }
 
 .social-link>svg {
-    color: var(--text-color);
+    fill: var(--text-color);
 }
 
 a:link {

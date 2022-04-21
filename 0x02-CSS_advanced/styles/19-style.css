@@ -190,7 +190,6 @@ template {
 /* Custom Css */
 
 
-
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -201,7 +200,7 @@ body {
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
+    min-height: var(--line-height-base);
 }
 
 a:link {
@@ -280,9 +279,7 @@ h6 {
     font-weight: var(--font-weight-bold);
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
+
 
 .navbar-menu {
     float: right;
@@ -329,6 +326,10 @@ ul .row {
     width: 50%;
     float: left;
     padding: 0.5rem;
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
 
 .footer-copyright {

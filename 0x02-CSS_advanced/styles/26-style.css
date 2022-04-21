@@ -397,6 +397,21 @@ h6 {
     background: var(--button-hover-background);
 }
 
+.card-testimonial{
+    text-align: center;
+}
+.card-testimonial .card-avatar{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+.card-testimmonia .card-quote cite{
+    display: block;
+    padding-top: 1rem;
+    color: var(--color-primary);
+
+}
+
 :root {
     --color-primary: #D73953;
     --color-black: #090909;

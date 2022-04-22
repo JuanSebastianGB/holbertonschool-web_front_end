@@ -1,0 +1,12 @@
+/* Columns and operators */
+
+@function setWidth($ratio) {
+    $original: 100%;
+    @return $original / $ratio;
+}
+
+@for $i from 1 through 4 {
+    .col-#{$i} {
+        width: setWidth($i);
+    }
+}

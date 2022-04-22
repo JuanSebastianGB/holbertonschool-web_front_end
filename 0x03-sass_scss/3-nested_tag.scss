@@ -1,0 +1,12 @@
+/* using margin, padding and nested decarations*/
+
+$zero: 0px;
+$byTen: 10px;
+
+body{
+    margin: $zero;
+    padding: $zero;
+    p{
+        margin: $byTen;
+    }
+}

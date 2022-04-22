@@ -7,9 +7,9 @@ $bigSize: 16px;
 body{
     font-size: $middleSize;
     h1{
-        font-size: bigSize;
+        font-size: $bigSize;
         .smaller{
-            font-size: smallSize;
+            font-size: $smallSize;
         }
     }
 }

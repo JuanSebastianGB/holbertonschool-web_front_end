@@ -1,0 +1,15 @@
+/* Nesting twice */
+
+$smallSize: 12px;
+$middleSize: 14px;
+$bigSize: 16px;
+
+body{
+    font-size: $middleSize;
+    h1{
+        font-size: bigSize;
+        .smaller{
+            font-size: smallSize;
+        }
+    }
+}

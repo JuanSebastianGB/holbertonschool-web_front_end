@@ -1,0 +1,10 @@
+/* Using Nested Child */
+
+$mainColor: #3D3D3D;
+$secondColor: #6D6D6D;
+body{
+    color: $mainColor;
+    > .red{
+        color: $secondColor;
+    }
+}

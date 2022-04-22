@@ -1,0 +1,22 @@
+/* Sort in ascending order */
+
+@import './103-sort_list.scss';
+
+$sortReference: a b c d e f g h i j k l m n o p q r s t u v w x y z !default;
+$auxiliarList: ();
+
+@function compare($char, $word, $listProcessed) {
+    @if $char==str-slice($word, 1, 1) {
+        $listProcessed: append($listProcessed, $word)
+    }
+
+    @return $listProcessed;
+}
+
+@each $singleChar in $sortReference {
+    @each $word in $list_to_sort {
+        $auxiliarList: compare($singleChar, $word, $auxiliarList);
+    }
+}
+
+@debug $auxiliarList;

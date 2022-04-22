@@ -1,0 +1,12 @@
+/* Media query #0 */
+$fontSizeSmall: 14px;
+$fontSizeBig: 14px;
+$breackSize: 320px;
+
+h1 {
+    font-size: $fontSizeBig;
+
+    @media screen and (max-width: $breackSize) {
+        font-size: $fontSizeSmall;
+    }
+}

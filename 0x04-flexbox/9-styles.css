@@ -562,8 +562,8 @@ ul.row {
     flex-wrap: wrap;
 }
 
-/* Section ABOT US ============================= */
-.about-us [class*='col-'] {
+/* Section ABOUT US ============================= */
+.section-about-us [class*='col-'] {
     align-self: center;
 }
 

@@ -389,14 +389,14 @@ ul.row {
 
 
 .nav {
-    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
+    display: flex;
 }
 
-.nav .nav-item+.nav-item {
+.nav .nav-item + .nav-item {
     margin: var(--nav-item-margin);
 }
 
@@ -534,15 +534,15 @@ ul.row {
       ============================= */
 
 .section-hero {
+    position: relative;
+    margin-top: -8.5rem;
+}
+
+.hero-homepage {
     background-position: 75% 0;
     background-repeat: no-repeat;
     background-size: 90rem auto;
     background-color: #010101;
-}
-
-.hero-homepage {
-    position: relative;
-    margin-top: -8.5rem;
 }
 
 .section-hero .section-body {
@@ -752,25 +752,8 @@ ul.row {
     display: flex;
 }
 
-.post img {
-    width: 100%;
-    height: auto;
-}
-
 .post-content {
     width: 100%;
-}
-
-.post-content p:first-child {
-    font-size: var(--font-size-x-large);
-}
-
-.post-content .img-caption {
-    margin: 1rem 0;
-    padding: 0 .5rem;
-    font-size: var(--font-size-small);
-    color: var(--color-grey);
-    text-align: center;
 }
 
 .post-aside {
@@ -791,13 +774,13 @@ ul.row {
     display: block;
 }
 
-.post-meta-list [class^="post-meta"] {
+.post-meta-list [class*="post-meta-"] {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: 0.2rem solid var(--color-light-grey);
 }
 
-.post-meta-list [class^="post-meta"] :nth-last-child() {
+.post-meta-list [class*="post-meta-"]:last-child {
     border: none;
     margin-bottom: 3rem;
 }

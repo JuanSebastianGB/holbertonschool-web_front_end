@@ -389,15 +389,11 @@ ul.row {
 
 
 .nav {
-    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
-}
-
-.nav .nav-item+.nav-item {
-    margin: var(--nav-item-margin);
+    display: flex;
 }
 
 .nav .nav-item {
@@ -406,6 +402,11 @@ ul.row {
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
 }
+
+.nav .nav-item + .nav-item {
+    margin: var(--nav-item-margin);
+}
+
 
 .nav .nav-link {
     display: block;

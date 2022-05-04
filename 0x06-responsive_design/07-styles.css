@@ -351,6 +351,18 @@ a:active {
     background: var(--color-white);
 }
 
+@media (max-width: 480px) {
+    html {
+        font-size: 57%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    html {
+        font-size: 60%;
+    }
+}
+
 /* Helpers
       ============================= */
 
@@ -476,7 +488,7 @@ ul.row {
 }
 
 .header .menu-icon {
-    display: none
+    display: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -503,7 +515,6 @@ ul.row {
         padding    : 2.5rem;
         position   : relative;
         user-select: none;
-        display    : none;
     }
 
     .header .menu-icon .navicon {
@@ -646,6 +657,7 @@ ul.row {
 .social-link>svg {
     fill: var(--text-color);
 }
+
 
 /*** 3. SECTION ***/
 

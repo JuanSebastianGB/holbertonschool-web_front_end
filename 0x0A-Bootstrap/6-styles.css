@@ -1,0 +1,47 @@
+:root {
+    --btn-primary     : #E0003C;
+    --btn-pimary-state: #BC1340;
+    --color-muted     : #8C8C8C;
+    --color-white     : #ffffff;
+}
+
+.btn-primary {
+    background  : var(--btn-primary);
+    border-color: var(--btn-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: var(--btn-pimary-state);
+}
+
+.btn-outline-primary {
+    color       : var(--btn-primary);
+    border-color: var(--btn-primary);
+}
+
+a,
+a:hover,
+a:focus {
+    color: var(--btn-primary);
+}
+
+.text-muted {
+    color: var(--color-muted);
+}
+
+.card-header {
+    background: var(--btn-primary);
+    color     : var(--color-white);
+}
+
+.card,
+.card-header {
+    border-color : var(--btn-primary);
+    border-radius: 1rem;
+}
+
+.card {
+    overflow: hidden;
+}

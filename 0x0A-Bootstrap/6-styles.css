@@ -45,3 +45,7 @@ a:focus {
 .card {
     overflow: hidden;
 }
+
+body div:first-of-type {
+    border-bottom-color: var(--btn-pimary-state);
+}

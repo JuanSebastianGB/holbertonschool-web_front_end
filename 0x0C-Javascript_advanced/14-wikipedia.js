@@ -1,7 +1,7 @@
 const createElement = (data) => {
-  const para = document.createElement('p');
-  para.innerHTML = data;
-  document.body.appendChild(para);
+  const paragraph = document.createElement('p');
+  paragraph.innerHTML = data;
+  document.body.appendChild(paragraph);
 };
 
 const queryWikipedia = (callback) => {

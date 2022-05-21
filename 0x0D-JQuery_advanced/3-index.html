@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Task 0</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <h2>hello</h2>
+
+
+    <script type="text/javascript">
+        const createFamilyTree = () => {
+            $('body').append([
+                $('<table/>').append([
+                        $('<thead/>').append([
+                            $('<tr/>').append([
+                                $('<th/>', {
+                                    text: 'firstname'
+                                }),
+                                $('<th/>', {
+                                    text: 'Lastname'
+                                })
+                            ])
+                        ])
+                    ],
+                    $('<tbody/>').append([
+                        $('<tr/>').append([
+                            $('<td/>', {
+                                text: 'Guillaume'
+                            }),
+                            $('<td/>', {
+                                text: 'Salva'
+                            })
+                        ]),
+                        $('<tr/>').append([
+                            $('<td/>', {
+                                text: 'Paulette'
+                            }),
+                            $('<td/>', {
+                                text: 'Salva'
+                            })
+                        ]),
+                        $('<tr/>').append([
+                            $('<td/>', {
+                                text: 'Antoine'
+                            }),
+                            $('<td/>', {
+                                text: 'Salva'
+                            })
+                        ])
+                    ])
+                )
+            ]);
+        }
+        $(document).ready(function () {
+            createFamilyTree();
+        })
+    </script>
+</body>
+
+</html>

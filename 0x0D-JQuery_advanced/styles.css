@@ -1,0 +1,64 @@
+html {
+    box-sizing     : border-box;
+    font-size      : 62.5%;
+    scroll-behavior: smooth;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+:root {
+    --mid-size        : 2rem;
+    --delete-color    : orange;
+    --ligth-gray-color: rgb(138, 135, 135);
+}
+
+body {
+    font-size  : 2rem;
+    font-family: Ubuntu, "Helvetica Neue";
+}
+
+tbody tr td span {
+    background-color: var(--delete-color);
+    cursor          : pointer;
+}
+
+input[type="text"] {
+    margin                    : 0;
+    overflow                  : visible;
+    padding                   : .375rem .75rem;
+    font-size                 : 1rem;
+    line-height               : 1.5;
+    color                     : #495057;
+    background-color          : #fff;
+    background-clip           : padding-box;
+    border                    : 1px solid #ced4da;
+    border-radius             : .25rem;
+    -webkit-box-flex          : 1;
+    margin-bottom             : 0;
+    border-top-right-radius   : 0;
+    border-bottom-right-radius: 0;
+}
+
+select,
+input[type="submit"] {
+
+    margin                    : 0;
+    display                   : inline-block;
+    height                    : calc(2.25rem + 2px);
+    padding                   : .375rem 1.75rem .375rem .75rem;
+    line-height               : 1.5;
+    vertical-align            : middle;
+    background-size           : 8px 10px;
+    border                    : 1px solid #ced4da;
+    border-radius             : .25rem;
+    -webkit-box-flex          : 1;
+    width                     : auto;
+    margin-bottom             : 0;
+    border-top-right-radius   : 0;
+    border-bottom-right-radius: 0;
+    background-color          : white;
+}

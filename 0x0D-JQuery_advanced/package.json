@@ -1,0 +1,16 @@
+{
+  "name": "0x0d-jquery_advanced",
+  "version": "1.0.0",
+  "description": "![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/3/68c5f95c4e32d808cd79.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220521%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220521T215123Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d0ffc1debb9fd628b0cc88157789ab1d2f3a9be1ba559f9bb8bb628bd0d4828f)",
+  "main": "3-index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

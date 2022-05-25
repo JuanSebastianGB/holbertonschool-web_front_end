@@ -1,29 +1,9 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
       "title": "fd",
       "author": "fffff",
       "id": 2
-    },
-    {
-      "title": "fd",
-      "author": "fffff",
-      "id": 3
-    },
-    {
-      "title": "f",
-      "author": "f",
-      "id": 4
-    },
-    {
-      "title": "",
-      "author": "",
-      "id": 5
     },
     {
       "title": "",
@@ -38,26 +18,15 @@
     {
       "title": "",
       "author": "",
-      "id": 8
-    },
-    {
-      "title": "",
-      "author": "",
       "id": 9
     },
     {
-      "title": "",
-      "author": "",
+      "author": "Sebastiann",
+      "title": "Clean Code",
       "id": 10
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }

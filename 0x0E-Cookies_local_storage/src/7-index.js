@@ -19,10 +19,8 @@ const removeItemFromCart = (item) => {
 const updateCart = () => {
   const headerTag = document.querySelector('.head-content');
   const lengthIs = sessionStorage.length;
-  if (lengthIs === 0) {
-    headerTag.innerHTML = 'Your cart is empty';
-    sessionStorage.removeItem('IsThisFirstTime_Log_From_LiveServer');
-  }
+  if (lengthIs === 0) headerTag.innerHTML = 'Your cart is empty';
+  else headerTag.innerHTML = `Your cart:`;
 
   const unorderedList = document.createElement('ul');
   const cartContainer = document.querySelector('.cart-content');
@@ -30,7 +28,6 @@ const updateCart = () => {
     if (sessionStorage.getItem(element)) {
       const item = document.createElement('li');
       item.onclick = () => removeItemFromCart(element);
-
       item.innerText = `${element} x ${sessionStorage.getItem(
         element
       )} (remove)`;

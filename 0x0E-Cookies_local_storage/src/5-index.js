@@ -1,6 +1,5 @@
-const { localStorage } = window;
 const availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
-const localStorageAvailable = window.localStorage || false;
+const localStorageAvailable = typeof localStorage === 'object';
 
 const createStore = () => {
   const store = document.createElement('ul');
@@ -17,7 +16,7 @@ const createStore = () => {
 const displayCart = () => {
   if (localStorage.length === 0) return;
   const quantityMessage = document.createElement('p');
-  quantityMessage.innerHTML = `You previosly had ${localStorage.length} items in your cart`;
+  quantityMessage.innerHTML = `You previously had ${localStorage.length} items in your cart`;
   document.body.append(quantityMessage);
 };
 
@@ -32,6 +31,7 @@ window.onload = () => {
     );
     return;
   }
+  const { localStorage } = window;
   createStore();
   displayCart();
 };
